@@ -13,9 +13,9 @@ class Primate extends Ex18_Mammal {
 }
 
 class Monkey extends Primate {
-    protected static void drink() throws RuntimeException {}
+    public static void drink() throws RuntimeException {}
     public Number dance(CharSequence p) {
         return null;
     }
-   // public int eat(String p) {}
+    //public int eat(String p) { return 0;}
 }
